@@ -1,0 +1,16 @@
+@import './nulling-styles';
+@import './fonts';
+@import './var';
+
+html {
+  background-color: $bg-color-laight;
+  color: $txt-color-laight;
+  font-size: 10px;
+}
+
+.container {
+  max-width: 188rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

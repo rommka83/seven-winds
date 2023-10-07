@@ -1,0 +1,17 @@
+@import 'src/app/styles/_var.scss';
+
+.root {
+  .list {
+    display: flex;
+    gap: 2rem;
+    .item {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      color: $txt-color-grey;
+    }
+    .itemActive {
+      color: $txt-color-laight;
+      border-bottom: 2px solid $txt-color-laight;
+    }
+  }
+}

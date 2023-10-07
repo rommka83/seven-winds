@@ -1,0 +1,15 @@
+@import 'src/app/styles/_var.scss';
+
+.root {
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid $border-color;
+    .icon {
+      color: $txt-color-grey;
+      cursor: pointer;
+      font-size: 2.4rem;
+    }
+  }
+}

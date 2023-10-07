@@ -1,0 +1,22 @@
+@import 'src/app/styles/_var.scss';
+
+.root {
+  display: grid;
+  grid-template-rows: 4rem 1fr;
+  grid-template-columns: 25rem 1fr;
+  height: 100vh;
+  .header {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .dashboard {
+    grid-column: 1;
+    grid-row: 2;
+
+    border-right: 1px solid $border-color;
+  }
+  .children {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}

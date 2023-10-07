@@ -1,0 +1,12 @@
+@import 'src/app/styles/_var.scss';
+
+.head {
+  width: 100%;
+  border-bottom: 1px solid $border-color;
+
+  .namePage {
+    width: fit-content;
+    padding: 1.4rem 2rem;
+    border-right: 1px solid $border-color;
+  }
+}

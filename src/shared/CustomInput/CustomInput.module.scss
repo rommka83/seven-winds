@@ -1,0 +1,14 @@
+@import 'src/app/styles/_var.scss';
+
+.inp {
+  padding: 1rem;
+  background-color: transparent;
+}
+.inpChange {
+  color: $txt-color-grey;
+  border: 0.1rem solid $border-color;
+  border-radius: 0.6rem;
+}
+.inpReadOnly {
+  color: inherit;
+}
