@@ -91,6 +91,8 @@ export const updateRow = createAsyncThunk(
         headers: { accept: '*/*', 'Content-Type': 'application/json' },
       }
     );
+
+    window.location.reload();
     return [response.data, rID];
   }
 );
