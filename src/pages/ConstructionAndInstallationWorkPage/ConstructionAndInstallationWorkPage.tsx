@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import styles from './ConstructionAndInstallationWorkPage.module.scss';
 import { PageHead } from '../../shared/PageHead';
 import classNames from 'classnames';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './NawVertical.module.scss';
 import { INawVertical } from './NawVertical.types';
 import classNames from 'classnames';

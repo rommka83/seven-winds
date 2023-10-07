@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './LayoutApp.module.scss';
 import { ILayoutApp } from './LayoutApp.types';
 import { Header } from '../../widgets/Header';

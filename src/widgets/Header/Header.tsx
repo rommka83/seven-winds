@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Header.module.scss';
 import { TiArrowBack } from 'react-icons/ti';
 import { CgMenuGridR } from 'react-icons/cg';

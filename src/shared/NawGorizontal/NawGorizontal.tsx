@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './NawGorizontal.module.scss';
 import { INawGorizontal } from './NawGorizontal.types';
 import { nanoid } from 'nanoid';

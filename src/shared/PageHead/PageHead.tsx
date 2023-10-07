@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './PageHead.module.scss';
 import { IPageHead } from './PageHead.types';
 
